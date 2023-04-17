@@ -1,4 +1,4 @@
-# TRAILKEEPERSOFOREGON.ORG
+![tko-banner](https://user-images.githubusercontent.com/100104319/232356032-b2abf06b-783a-4ca1-9037-c999afa771a6.png)
 
 ## 👋 Welcome
 Thanks for stopping by. This project is moving the [trailkeepersoforegon.org](https://www.trailkeepersoforegon.org) website under version control to allow more collaborators to work on the site platform. This is separate from the content of the site which is managed primarily by TKO staff. If you are interested in contributing see the Get Involved section below.
@@ -11,12 +11,13 @@ Thanks for stopping by. This project is moving the [trailkeepersoforegon.org](ht
 * ⬜ Rebuild theme to move off WPBakery Page Builder
 * ⬜ Optimize site speed
 
-## Requirements
+## Development
+### Requirements
 * PHP
 * Composer
 * Docker (and docker-compose)
 
-## Usage
+### Usage
 1. Fork the repo.
 2. Run `docker build -t wordpress-with-composer .` from the projects root.
 3. Run `docker compose up -d` from the projects root.
