@@ -1,7 +1,15 @@
 # TRAILKEEPERSOFOREGON.ORG
 
 ## 👋 Welcome
-Thanks for stopping by. This project is moving the tko.org website under version control to allow more collaborators to work on the site platform. This is separate from the content of the site which is managed primarily by TKO staff. If you are interested in contributing see the Get Involved section below.
+Thanks for stopping by. This project is moving the [trailkeepersoforegon.org](https://www.trailkeepersoforegon.org) website under version control to allow more collaborators to work on the site platform. This is separate from the content of the site which is managed primarily by TKO staff. If you are interested in contributing see the Get Involved section below.
+
+### The Plan
+* ✅ Create Repository
+* ⬜ Get a dockerized and composerized version of site working locally
+* ⬜ Remove any unneeded plugins
+* ⬜ Redeploy production site with version control and dependency management
+* ⬜ Rebuild theme to move off WPBakery Page Builder
+* ⬜ Optimize site speed
 
 ## Requirements
 * PHP
