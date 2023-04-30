@@ -58,7 +58,8 @@
     "require": {
         "wpackagist-plugin/all-in-one-seo-pack": "4.3.*",
         "mt-support/tribe-ext-eventbrite-additional-options": "1.0.3",
-        "wpbakery/pagebuilder": "5.4.7"
+        "wpbakery/pagebuilder": "5.4.7",
+        "wpackagist-plugin/event-tickets": "5.5.10"
     },
     "config": {
         "allow-plugins": {

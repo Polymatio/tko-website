@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eab88abb38115077786c034c1d1ca859",
+    "content-hash": "469eb99d01a7e385f00fd450a0746fc1",
     "packages": [
         {
             "name": "composer/installers",
@@ -182,6 +182,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/event-tickets",
+            "version": "5.5.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/event-tickets/",
+                "reference": "tags/5.5.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.5.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/event-tickets/"
         },
         {
             "name": "wpbakery/pagebuilder",
