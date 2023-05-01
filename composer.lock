@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "469eb99d01a7e385f00fd450a0746fc1",
+    "content-hash": "eab88abb38115077786c034c1d1ca859",
     "packages": [
         {
             "name": "composer/installers",
@@ -166,6 +166,42 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "wpackagist-plugin/advanced-cron-manager",
+            "version": "2.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-cron-manager/",
+                "reference": "tags/2.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-cron-manager.2.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-cron-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-database-cleaner",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-database-cleaner.3.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-database-cleaner/"
+        },
+        {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
             "version": "4.3.5.1",
             "source": {
@@ -182,6 +218,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/real-media-library-lite",
+            "version": "4.19.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/real-media-library-lite/",
+                "reference": "tags/4.19.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/real-media-library-lite.4.19.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/real-media-library-lite/"
         },
         {
             "name": "wpackagist-plugin/event-tickets",

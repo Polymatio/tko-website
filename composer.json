@@ -8,28 +8,28 @@
     ],
     "repositories": [
         {
-          "type": "composer",
-          "url": "https://wpackagist.org",
-          "only": [
-            "wpackagist-plugin/*",
-            "wpackagist-theme/*"
-          ]
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
         },
         {
             "type": "package",
             "package": {
-              "name": "mt-support/tribe-ext-eventbrite-additional-options",
-              "version": "1.0.3",
-              "type": "wordpress-plugin",
-              "source": {
-                "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options.git",
-                "type": "git",
-                "reference": "master"
-              },
-              "dist": {
-                "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options/archive/refs/tags/1.0.3.zip",
-                "type": "zip"
-              }
+                "name": "mt-support/tribe-ext-eventbrite-additional-options",
+                "version": "1.0.3",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options/archive/refs/tags/1.0.3.zip",
+                    "type": "zip"
+                }
             }
         },
         {
@@ -59,6 +59,9 @@
         "wpackagist-plugin/all-in-one-seo-pack": "4.3.*",
         "mt-support/tribe-ext-eventbrite-additional-options": "1.0.3",
         "wpbakery/pagebuilder": "5.4.7",
+        "wpackagist-plugin/real-media-library-lite": "4.19.0",
+        "wpackagist-plugin/advanced-cron-manager": "2.5.0",
+        "wpackagist-plugin/advanced-database-cleaner": "3.1.2",
         "wpackagist-plugin/event-tickets": "5.5.10"
     },
     "config": {
