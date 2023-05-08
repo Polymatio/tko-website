@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eab88abb38115077786c034c1d1ca859",
+    "content-hash": "024ace79ec6e37c7f94b805971b976ee",
     "packages": [
         {
             "name": "composer/installers",
@@ -220,22 +220,22 @@
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
         },
         {
-            "name": "wpackagist-plugin/real-media-library-lite",
-            "version": "4.19.0",
+            "name": "wpackagist-plugin/duplicate-page",
+            "version": "4.5.2",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/real-media-library-lite/",
-                "reference": "tags/4.19.0"
+                "url": "https://plugins.svn.wordpress.org/duplicate-page/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/real-media-library-lite.4.19.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-page.zip?timestamp=1683202842"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/real-media-library-lite/"
+            "homepage": "https://wordpress.org/plugins/duplicate-page/"
         },
         {
             "name": "wpackagist-plugin/event-tickets",
@@ -254,6 +254,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/event-tickets/"
+        },
+        {
+            "name": "wpackagist-plugin/real-media-library-lite",
+            "version": "4.19.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/real-media-library-lite/",
+                "reference": "tags/4.19.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/real-media-library-lite.4.19.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/real-media-library-lite/"
         },
         {
             "name": "wpbakery/pagebuilder",
