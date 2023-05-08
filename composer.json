@@ -62,6 +62,8 @@
         "wpackagist-plugin/real-media-library-lite": "4.19.0",
         "wpackagist-plugin/advanced-cron-manager": "2.5.0",
         "wpackagist-plugin/advanced-database-cleaner": "3.1.2",
+        "wpackagist-plugin/breeze": "2.0.20",
+        "wpackagist-plugin/classic-editor": "1.6.3",
         "wpackagist-plugin/event-tickets": "5.5.10",
         "wpackagist-plugin/duplicate-page": "4.5.2"
     },
